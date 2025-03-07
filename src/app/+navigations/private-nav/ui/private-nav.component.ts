@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-private-nav',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet,RouterLink,],
   templateUrl: './private-nav.component.html',
   styleUrl: './private-nav.component.scss'
 })
