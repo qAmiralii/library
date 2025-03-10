@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { BooksService } from '../../../../pages/public/service/books.service';
 
 @Component({
   selector: 'app-product',
@@ -7,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './product.component.scss'
 })
 export class ProductComponent {
+
 
 }
