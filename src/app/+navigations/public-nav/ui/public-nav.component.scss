@@ -1,0 +1,26 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: chocolate;
+    padding: 0.3em;
+}
+.a-divs {
+    a{
+        color: white;
+        text-decoration: none;
+        margin: 1em;
+
+    }
+}
+header{
+    h1{
+        padding: 1em;
+        margin: 0;
+        text-align: center;
+        background-color: rgb(128, 203, 196);
+    }
+}
+footer{
+    background-color: rgb(251, 248, 239);
+    text-align: center;
+}

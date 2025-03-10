@@ -15,5 +15,5 @@ import { MatFormFieldModule } from '@angular/material/form-field';
   imports: [MatFormFieldModule, MatInputModule, FormsModule, MatButtonModule, MatIconModule],
 })
 export class InputClearableExample {
-  value = 'name';
+
 }
