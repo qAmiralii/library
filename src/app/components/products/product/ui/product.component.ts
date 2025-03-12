@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, Input, input, Output, output } from '@angular/core';
 import { BooksService } from '../../../../pages/public/service/books.service';
 
 @Component({
@@ -9,5 +9,6 @@ import { BooksService } from '../../../../pages/public/service/books.service';
 })
 export class ProductComponent {
 
+  @Input() product:any;
 
 }
