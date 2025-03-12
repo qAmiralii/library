@@ -1,7 +1,8 @@
 <div class="products">
     @for (item of kala ; track $index) {
         <div class="productComponent">
-            <app-product [product]="item"/>
+            <app-product [product]="item" (OnBuy)="addCart($event)"/>
         </div>
     }
 </div>
+

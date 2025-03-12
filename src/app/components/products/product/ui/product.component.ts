@@ -1,4 +1,4 @@
-import { Component, inject, Input, input, Output, output } from '@angular/core';
+import { Component, EventEmitter, inject, Input, input, Output, output } from '@angular/core';
 import { BooksService } from '../../../../pages/public/service/books.service';
 
 @Component({
@@ -8,7 +8,10 @@ import { BooksService } from '../../../../pages/public/service/books.service';
   styleUrl: './product.component.scss'
 })
 export class ProductComponent {
-
-  @Input() product:any;
+  addToCart(x:any) {
+    this.OnBuy.emit(x)
+  }
+  @Output() OnBuy = new EventEmitter<any>
+  @Input() product: any;
 
 }

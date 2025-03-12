@@ -7,6 +7,7 @@ import { AboutComponent } from './pages/public/about/ui/about.component';
 import { BooksComponent } from './pages/public/books/ui/books.component';
 import { DashboardComponent } from './pages/private/dashboard/ui/dashboard.component';
 import { MembersComponent } from './pages/private/members/ui/members.component';
+import { CartComponent } from './pages/public/cart/cart.component';
 
 export const routes: Routes = [
     {
@@ -14,6 +15,7 @@ export const routes: Routes = [
             { path: 'home', component: PublicHomeComponent },
             { path: 'about', component: AboutComponent },
             { path: 'books', component: BooksComponent },
+            { path: 'cart', component: CartComponent },
             { path: '', redirectTo: 'home', pathMatch: 'prefix' }
         ]
     },
@@ -26,6 +28,6 @@ export const routes: Routes = [
         ]
     },
     { path: 'login', component: LoginComponent },
-    { path: '', redirectTo: 'public', pathMatch: 'full'},
+    { path: '', redirectTo: 'public', pathMatch: 'full' },
 
 ];
