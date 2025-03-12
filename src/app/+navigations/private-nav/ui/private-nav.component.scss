@@ -1,0 +1,27 @@
+header{
+    h1{
+        padding: 1em;
+        margin: 0;
+        text-align: center;
+        background-color: rgb(128, 203, 196);
+    }
+}
+.sidebar{
+    background-color: rgb(251, 255, 228);
+    display: inline-block;
+    width: 10%;
+
+}
+.a-divs{
+    margin-bottom: 0.5em;
+    border-radius: 0.5em;
+    a{
+        text-decoration: none;
+        color: black;
+        padding: 0.4em;
+    }
+}
+.a-divs:hover{
+    background-color: rgb(179, 216, 168);
+    cursor: pointer;
+}
