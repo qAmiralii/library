@@ -9,9 +9,8 @@ import { BooksService } from '../../../../pages/public/service/books.service';
 })
 export class ProductComponent {
   addToCart(x:any) {
-    this.OnBuy.emit(x)
+    x.cart = true;
   }
-  @Output() OnBuy = new EventEmitter<any>
   @Input() product: any;
 
 }

@@ -10,14 +10,8 @@ import { X } from '@angular/cdk/keycodes';
   styleUrl: './products.component.scss'
 })
 export class ProductsComponent {
-addCart( $event : any) {
-  $event.cart = true;
-    if ($event.cart == true) {
-      console.log("working!")
-    }
-}
+
   buy: any[] = [];   
   products = inject(BooksService)
-  kala: any[] = this.products.konkorBooks;
 
 }
